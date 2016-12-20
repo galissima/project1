@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="bg">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Контакти/Запитване</title>
+		<link rel="stylesheet" type="text/css" href="Page_1.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="pics/start.jpg" alt="start"/>
+			</div>
+			<div class="dar">
+				<p>ДАР</p>
+			</div>
+			<div class="hlapeta">
+				<p id="letter-h">Х</p>
+				<p id="letter-l">Л</p>
+				<p id="letter-a">А</p>
+				<p id="letter-p">П</p>
+				<p id="letter-e">Е</p>
+				<p id="letter-t">Т</p>
+				<p id="letter-ab">А</p>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="Page_1.html" id="hover0">Начало</a></li>
+					<li><a href="Page_2.html" id="hover1">За нас</a></li>
+					<li><a href="Page_3.html" id="hover2">Екип</a></li>
+					<li><a href="Page_4.html" id="hover3">Лятна академия</a></li>
+					<li><a href="Page_5.html" id="hover4">15 години</a></li>
+					<li><a href="Page_6.html" id="hover5">Контакти</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="thirdmain">
+			<div class="nachalo">
+				<a href="Page_1.html">Начало</a>
+				&lt;&lt;
+				<a id="none" href="Page_6.html">Контакти</a>
+			</div>
+				<div class="contacts">
+					<ul>
+						<li><a href="Page_6.1.html">Адрес</a></li>
+						<li><a href="Page_6.2.html">Карта</a></li>
+						<li><a href="Page_6.3.html">Запитване</a></li>
+					</ul>
+			</div>
+					<p id="for">Запитване</p>
+				<form id="zapitvane" action="send.php" method="post">
+					<p>Желая да питам следното:</p>
+					<p><textarea name="zapitvane" rows="5" cols="25"></textarea></p>
+					<p>Вашето име:</p>
+					<p><input type="text" name="full name" value="" /></p>
+					<p>Град:</p>
+					<p><input type="text" name="city" value="" /></p>
+					<p>Телефон:</p>
+					<p><input type="text" name="phone" value="" /></p>
+					<p>Имейл:</p> 
+					<p><input type="text" name="mail" value="" /></p>
+					<p> 
+					<input type="submit" value="Изпрати" />
+					</p>
+				</form>
+			<div class="sidebar">
+				<ul>
+					<li><a href="Page_7.html" class="button">Събития</a></li>
+					<li><a href="Page_8.html" class="button">Публикации</a></li>
+					<li><a href="Page_9.html" class="button">"Хлапета в действие"</a></li>
+					<li><a href="Page_10.html" class="button">Дискография</a></li>
+					<li><a href="Page_11.html" class="button">Другите за нас</a></li>
+				</ul>
+			</div>
+		</main>
+		<footer>
+			&copy;2016г. Галя Петкова
+			<div class="fbyou">
+				<p><a href="https://www.facebook.com/darhlapeta/"><img src="pics/facebook.png" alt="facebook"/></a>
+					<a><img src="pics/youtube.png" alt="facebook"/></a>
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>

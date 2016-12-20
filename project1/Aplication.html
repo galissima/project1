@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="bg">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Aplication</title>
+		<link rel="stylesheet" type="text/css" href="Page_1.css"/>
+	</head>
+	<body>
+	<fieldset>
+	<form action="send.php" method="post">
+		<h1>Форма за участие в Лятна академия "Хлапета" </h1>
+		<h3>Данни на детето:</h3>
+		<p>Име:</p>
+		<input type="text" name="firstname" placeholder="Име"/>
+		<p>Фамилия:</p>
+		<input type="text" name="lastname" placeholder="Фамилия"/>
+		<p>Това лято Академия "Хлапета" ще се проведе три пъти.
+			Моля, посочете датите, в които искате да се включи Вашето дете:</p>
+		<select name="dates">
+			<option value="first">От 04.07.17г до 16.07.2017г</option>
+			<option value="first">От 18.07.17г до 30.07.2017г</option>
+			<option value="first">От 01.08.17г до 13.08.2017г</option>
+		</select>
+		<p>Моля, посочете начинът на плащане на таксата за участие, която е в размер а 150лв.</p>
+			<label for="fix">По банков път</label>
+			<input id="fix" type="radio" name="payment" value="money" checked/>
+		<p>
+			<label for="fixed">В брой</label>
+			<input id="fixed" type="radio" name="payment" value="taksa"/>
+		</p>
+		<p>Банкова сметка</p>
+		<p>БАНКА: ТБ ИНВЕСТБАНК АД – КЛОН ПЛОВДИВ</p>
+		<p>IBAN: BG53 IORT 73758402020000   BIC: IORTBGSF</p>
+		<h3>Данни на родител:</h3>
+		<p>Име:</p>
+			<input type="text" name="firstname" placeholder="Име"/>
+		<p>Фамилия:</p>
+			<input type="text" name="lastname" placeholder="Фамилия"/>
+		<p>Телефон:</p>
+			<input type="text" name="phone" placeholder="Телефон"/>
+		<p>
+			<input type="submit" value="Изпрати" />
+		</p>	
+	</form>
+	</fieldset>
+	</body>
+</html>
+
+		
+		
